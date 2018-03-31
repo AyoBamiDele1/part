@@ -230,4 +230,8 @@ footer {
   font-size: 15px;
   text-decoration: none;
 }
+.clear {
+  display: flex;
+  justify-content: center;
+}
   
