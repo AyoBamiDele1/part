@@ -21,7 +21,7 @@ hr {
 
 header.startup {
   background-position: center;
- 
+  background-image: url("header.jpg");
   background-size: cover;
   height: 100%;
 }
@@ -56,7 +56,6 @@ header.startup h1 {
   border-width: 5px;
   cursor: pointer;
 }
-<<<<<<< HEAD
 .header-font {
   font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #fd1506;
@@ -115,7 +114,6 @@ footer {
   color: #fff;
   transition: color 0.2s linear 0s, background 0.2s linear 0s;
   display: block;
-
   padding-bottom: 5px;
   border-bottom: 1px dotted #fff;
 }
@@ -237,62 +235,3 @@ footer {
   justify-content: center;
 }
   
-=======
-video { 
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translateX(-50%) translateY(-50%);
-background: url('http://thenewcode.com/assets/videos/zsystems-alt.webm') no-repeat;
-background-size: cover;
-transition: 1s opacity;
-}
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: auto;
-  text-align: center;
-  display: inline-flex;
-  justify-content: center;
-  border-radius: 20px;
-  position: relative;
-}
-
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-linkedin {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-/*info*/
-.contact-info {
-color: green;
-text-transform: uppercase;
-width: auto;
-letter-spacing: 5px;
-word-spacing: 10px;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-font-weight: bolder;
-}
-  
->>>>>>> develop
